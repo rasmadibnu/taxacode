@@ -4,13 +4,17 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Drawer from "./components/Drawer";
 import Project from "./pages/Project"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import 'aos/dist/aos.css';
 import AOS from "aos";
+
 
 const App = () => {
   const [isSidebarOpen, setSidebar] = useState(false);
   AOS.init({ duration: 2000 })
+  useEffect(() => {
+    document.title = 'Taxacode';
+  }, []);
   return (
     <main className="font-overpass">
       <Navigation setStateSidebar={setSidebar} stateSidebar={isSidebarOpen} />
