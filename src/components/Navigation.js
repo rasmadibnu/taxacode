@@ -6,7 +6,7 @@ const Navigation = ({setStateSidebar, ...props}) => {
 
         <div className="flex justify-between py-7">
             <div>
-                <Link to="/" className="text-2xl font-semibold">Halfhour</Link>
+                <Link to="/" className="text-2xl font-semibold">Taxacode</Link>
             </div>
             <div>
                 <img className="md:hidden block" src={Menu} onClick={() => setStateSidebar(!props.stateSidebar)} alt="menubutton" />
