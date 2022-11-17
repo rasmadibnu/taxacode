@@ -8,7 +8,7 @@ const Drawer = ({setStateSidebar, ...props}) => {
             <div
                     className="bg-white fixed shadow-lg top-0 right-0 md:w-2/5 w-3/5 h-screen z-10">
                     <div className="md:px-8 px-6 py-7">
-                        <img src={Close} width="32px" alt="close" onClick={() => setStateSidebar(!props.stateSidebar)}/>
+                        <img src={Close} width="32px" className="duration-300" alt="close" onClick={() => setStateSidebar(!props.stateSidebar)}/>
                         <div className="mt-10">
                             <div className="text-md uppercase font-bold text-gray-700">Menu</div>
                             <div className="md:space-y-5 space-y-2 mt-5">
