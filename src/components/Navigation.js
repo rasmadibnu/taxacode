@@ -9,7 +9,8 @@ const Navigation = ({setStateSidebar, ...props}) => {
                 <Link to="/" className="text-2xl font-semibold">Taxacode</Link>
             </div>
             <div>
-                <img className="md:hidden block" src={Menu} onClick={() => setStateSidebar(!props.stateSidebar)} alt="menubutton" />
+                {/* <img className="md:hidden block" src={Menu} onClick={() => setStateSidebar(!props.stateSidebar)} alt="menubutton" /> */}
+                <img className="md:hidden block" src={Menu} alt="menubutton" />
                 <ul className="md:flex space-x-5 hidden opacity-60">
                     <li>
                         <Link to="#">About</Link>
