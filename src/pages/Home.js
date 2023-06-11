@@ -48,7 +48,7 @@ const Home = () => {
                 <div>
                     <div>
                         <p className="text-4xl font-semibold">We Are Here For Your <br/> Business Solution</p>
-                        <p className="mt-7 opacity-60">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        <p className="mt-7 opacity-60">We are dedicated to providing comprehensive business solutions tailored to meet your unique needs. With our expertise and commitment, we are here to support you every step of the way, ensuring your business thrives and achieves its goals. Our team of experienced professionals understands the challenges you face and is ready to offer strategic guidance and innovative solutions to drive your success. Whether you require assistance with financial planning, operational efficiency, marketing strategies, or technology integration, we have the knowledge and resources to deliver results. Trust us to be your reliable partner, working diligently to transform your vision into reality.</p>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@ const Home = () => {
                     </div>
                     <div className="md:mt-10 mt-5">
                         <p className="font-semibold text-lg">Ui & Ux Designer</p>
-                        <p className="mt-3 opacity-60 text-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p className="mt-3 opacity-60 text-xs">We are specialize in crafting seamless and captivating digital experiences that delight users and drive business growth. With a keen eye for aesthetics and a deep understanding of user behavior, I strive to create intuitive and visually stunning interfaces that enhance user engagement and satisfaction.</p>
                     </div>
                 </div>
                 <div data-aos="fade-down" className="border box-border px-5 py-5 rounded-lg">
@@ -72,7 +72,7 @@ const Home = () => {
                     </div>
                     <div className="md:mt-10 mt-5">
                         <p className="font-semibold text-lg">Web Development</p>
-                        <p className="mt-3 opacity-60 text-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p className="mt-3 opacity-60 text-xs">we excel in web development, bringing your online presence to life with dynamic and immersive websites. Our team of skilled developers combines technical expertise with creativity to deliver exceptional web solutions that align with your brand identity and business objectives.</p>
                     </div>
                 </div>
                 <div data-aos="fade-up" className="border box-border px-5 py-5 rounded-lg">
@@ -81,7 +81,7 @@ const Home = () => {
                     </div>
                     <div className="md:mt-10 mt-5">
                         <p className="font-semibold text-lg">Mobile Development</p>
-                        <p className="mt-3 opacity-60 text-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p className="mt-3 opacity-60 text-xs">We specialize in mobile development, empowering businesses to reach their customers on the go with powerful and engaging mobile applications. Our team of experienced mobile developers is dedicated to creating innovative and intuitive mobile solutions that elevate user experiences and drive business growth.</p>
                     </div>
                 </div>
                 <div data-aos="fade-up" className="border box-border px-5 py-5 rounded-lg">
@@ -90,7 +90,7 @@ const Home = () => {
                     </div>
                     <div className="md:mt-10 mt-5">
                         <p className="font-semibold text-lg">Search Engine Optimization</p>
-                        <p className="mt-3 opacity-60 text-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p className="mt-3 opacity-60 text-xs">We are experts in Search Engine Optimization, helping businesses increase their online visibility and drive targeted organic traffic to their websites. With our strategic and data-driven approach, we optimize your website's performance, ensuring it ranks higher in search engine results pages (SERPs) and attracts qualified leads.</p>
                     </div>
                 </div>
             </div>
