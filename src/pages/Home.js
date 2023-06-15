@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <>
-    <section className="max-w-5xl md:mx-auto mx-5 mt-16">
+    <section className="max-w-5xl xl:mx-auto mx-5 mt-16">
         
         <div className="grid md:grid-cols-2 gap-5">
             <div className="flex items-center">
@@ -63,7 +63,7 @@ const Home = () => {
                     </div>
                     <div className="md:mt-10 mt-5">
                         <p className="font-semibold text-lg">Ui & Ux Designer</p>
-                        <p className="mt-3 opacity-60 text-xs">We are specialize in crafting seamless and captivating digital experiences that delight users and drive business growth. With a keen eye for aesthetics and a deep understanding of user behavior, I strive to create intuitive and visually stunning interfaces that enhance user engagement and satisfaction.</p>
+                        <p className="mt-3 opacity-60 text-xs">Crafting seamless and captivating digital experiences that delight users and drive business growth. With a keen eye for aesthetics and a deep understanding of user behavior, I strive to create intuitive and visually stunning interfaces that enhance user engagement and satisfaction.</p>
                     </div>
                 </div>
                 <div data-aos="fade-down" className="border box-border px-5 py-5 rounded-lg">
@@ -72,7 +72,7 @@ const Home = () => {
                     </div>
                     <div className="md:mt-10 mt-5">
                         <p className="font-semibold text-lg">Web Development</p>
-                        <p className="mt-3 opacity-60 text-xs">we excel in web development, bringing your online presence to life with dynamic and immersive websites. Our team of skilled developers combines technical expertise with creativity to deliver exceptional web solutions that align with your brand identity and business objectives.</p>
+                        <p className="mt-3 opacity-60 text-xs">Bringing your online presence to life with dynamic and immersive websites. Our team of skilled developers combines technical expertise with creativity to deliver exceptional web solutions that align with your brand identity and business objectives.</p>
                     </div>
                 </div>
                 <div data-aos="fade-up" className="border box-border px-5 py-5 rounded-lg">
@@ -81,7 +81,7 @@ const Home = () => {
                     </div>
                     <div className="md:mt-10 mt-5">
                         <p className="font-semibold text-lg">Mobile Development</p>
-                        <p className="mt-3 opacity-60 text-xs">We specialize in mobile development, empowering businesses to reach their customers on the go with powerful and engaging mobile applications. Our team of experienced mobile developers is dedicated to creating innovative and intuitive mobile solutions that elevate user experiences and drive business growth.</p>
+                        <p className="mt-3 opacity-60 text-xs">Empowering businesses to reach their customers on the go with powerful and engaging mobile applications. Our team of experienced mobile developers is dedicated to creating innovative and intuitive mobile solutions that elevate user experiences and drive business growth.</p>
                     </div>
                 </div>
                 <div data-aos="fade-up" className="border box-border px-5 py-5 rounded-lg">
@@ -90,7 +90,7 @@ const Home = () => {
                     </div>
                     <div className="md:mt-10 mt-5">
                         <p className="font-semibold text-lg">Search Engine Optimization</p>
-                        <p className="mt-3 opacity-60 text-xs">We are experts in Search Engine Optimization, helping businesses increase their online visibility and drive targeted organic traffic to their websites. With our strategic and data-driven approach, we optimize your website's performance, ensuring it ranks higher in search engine results pages (SERPs) and attracts qualified leads.</p>
+                        <p className="mt-3 opacity-60 text-xs">Helping businesses increase their online visibility and drive targeted organic traffic to their websites. With our strategic and data-driven approach, we optimize your website's performance, ensuring it ranks higher in search engine results pages (SERPs) and attracts qualified leads.</p>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ const Home = () => {
                     <div data-aos="fade-right" className="flex items-center">
                         <div className="space-y-5 md:px-8 px-0">
                             <p className="text-xl font-bold">temanpindah</p>
-                            <p className=" opacity-60 text-sm">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution</p>
+                            <p className=" opacity-60 text-sm">TemanPindah adalah sebuah perusahaan yang bergerak di pindah jasa pindahan barang, baik itu untuk kebutuhan rumah, kantor, apartemen, piano, dan bahkan atm. Selain jasa pindahan, TemanPindah juga memiliki jasa kargo dan logistik, TemanPindah mencakup semua area diseluruh Indonesia baik itu JaBoDeTaBek, Keluar Kota, dan bahkan Antar Pulau.</p>
                             <Link to='/projects/temanpindah' className="flex space-x-5 text-sm">
                                 <p>View Project</p>
                                 <img src={Arrow} alt="" className="w-4"/>
@@ -121,7 +121,7 @@ const Home = () => {
                     <div data-aos="fade-right" className="flex items-center">
                         <div className="space-y-5 md:px-8 px-0">
                             <p className="text-xl font-bold">pykotes</p>
-                            <p className="opacity-60 text-sm">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution</p>
+                            <p className="opacity-60 text-sm">Pykotes adalah sebuah aplikasi berbasis website untuk melihat hasil dari kepribadian seseorang melalui berbagai macam tes. Diantaranya terdapat tes mainstream seperti MBTI dan DISC. Tapi saat anda membaca tulisan ini, pykotes baru tersedia tes MBTI saja.</p>
                             <Link to="/projects/pykotes" className="flex space-x-5 text-sm">
                                 <p>View Project</p>
                                 <img src={Arrow} alt="" className="w-4"/>
@@ -139,7 +139,7 @@ const Home = () => {
                     <div data-aos="fade-right" className="flex items-center">
                         <div className="space-y-5 md:px-8 px-0">
                             <p className="text-xl font-bold">Find Jobs</p>
-                            <p className=" opacity-60 text-sm">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution</p>
+                            <p className=" opacity-60 text-sm">Find Jobs adalah sebuah aplikasi mobile yang dirancang untuk membantu pengguna dalam mencari pekerjaan yang sesuai dengan minat, kualifikasi, dan preferensi mereka. Aplikasi ini menyediakan berbagai fitur dan fungsionalitas yang memudahkan pengguna dalam menemukan dan melamar pekerjaan yang diinginkan.</p>
                             <Link to="/projects/find-jobs" className="flex space-x-5 text-sm">
                                 <p>View Project</p>
                                 <img src={Arrow} alt="" className="w-4"/>

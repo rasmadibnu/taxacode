@@ -11,7 +11,7 @@ const Project = () => {
     if(id === 'temanpindah'){
         return (
             <>
-                <section id="navbar" className="max-w-5xl md:mx-auto mx-5">
+                <section id="navbar" className="max-w-5xl xl:mx-auto mx-5">
                     <div class="pt-10">
                         <div data-aos="zoom-in" class="md:text-md text-sm font-light"><span class="text-red-600">Home</span> / <span class="text-red-600">Projects</span> / TemanPindah Company Profile</div>
                         <div data-aos="zoom-in" class="md:text-6xl text-4xl font-extrabold mt-5 mb-12 lg:space-y-5">
@@ -19,7 +19,7 @@ const Project = () => {
                         </div>
                     </div>
                 </section>
-                <section id="navbar" className="max-w-5xl md:mx-auto mx-5">
+                <section id="navbar" className="max-w-5xl xl:mx-auto mx-5">
                     <img data-aos="zoom-in" src={TemanPindahImage1} class="w-full object-cover rounded mb-10"/>
                     
                     <div class="md:mx-20 md:text-lg text-gray-700 font-light">
@@ -75,7 +75,7 @@ const Project = () => {
     } else if(id === 'pykotes'){
         return (
         <>
-        <div data-aos="zoom-in" className="max-w-5xl md:mx-auto mx-5">
+        <div data-aos="zoom-in" className="max-w-5xl xl:mx-auto mx-5">
             <div className="pt-10">
                 <div className="md:text-md text-sm font-light"><span className="text-red-600">Home</span> / <span className="text-red-600">Projects</span> / Psychological Test Online</div>
                 <div className="md:text-6xl text-4xl font-extrabold mt-5 mb-12 lg:space-y-5">
@@ -94,7 +94,7 @@ const Project = () => {
     } else if(id === 'find-jobs'){
         return (
             <>
-            <div className="max-w-5xl md:mx-auto mx-5">
+            <div className="max-w-5xl xl:mx-auto mx-5">
                 <div data-aos="zoom-in" className="mt-16 md:pt-10">
                     <div className="md:text-md text-sm font-light"><span className="text-red-600">Home</span> / <span className="text-red-600">Case Study</span> / Ui/Ux Find Jobs Design Mobile Apps</div>
                     <div className="md:text-6xl text-4xl font-extrabold mt-5 mb-12 lg:space-y-5">

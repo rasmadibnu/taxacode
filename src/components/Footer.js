@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <section id="footer" className="bg-black opacity-90 mt-24 py-10">
 
-        <div className="max-w-5xl md:mx-auto mx-5 grid md:grid-cols-5 grid-cols-2 gap-6 text-white">
+        <div className="max-w-5xl xl:mx-auto mx-5 grid md:grid-cols-5 grid-cols-2 gap-6 text-white">
             <div>
                 <p className="font-medium text-base">Find Us</p>
                 <div className="mt-5">
@@ -70,7 +70,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className="max-w-5xl md:mx-auto mx-5 md:flex md:justify-between mt-20 text-white text-xs opacity-60">
+        <div className="max-w-5xl xl:mx-auto mx-5 md:flex md:justify-between mt-20 text-white text-xs opacity-60">
             <div>
                 <ul className="flex space-x-5 ">
                     <li>Term of use</li>

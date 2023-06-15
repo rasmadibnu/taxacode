@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import Menu from '../assets/img/menu.svg'
 const Navigation = ({setStateSidebar, ...props}) => {
     return (
-        <section id="navbar" className="max-w-5xl md:mx-auto mx-5">
+        <section id="navbar" className="max-w-5xl xl:mx-auto mx-5">
 
         <div className="flex justify-between py-7">
             <div>
